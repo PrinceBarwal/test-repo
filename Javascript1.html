@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+        <p style="font-size: 50px;">What is your name ?</p>
+        <input type="text" id="name" />
+        <button style="font-size: 30px;" onclick="myFunction()">
+                Answer
+        </button>
+        <p style="font-size: 50px;" id="demo"></p>
+
+</body>   
+<script>
+
+        var name;
+        function myFunction(e) {
+                name = document.getElementById("name").value;
+                document.getElementById('demo').innerHTML = name;
+                console.log(e)
+        }
+ 
+</script>
+
+</html>

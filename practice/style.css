@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: blueviolet;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /* display: inline; */
+}

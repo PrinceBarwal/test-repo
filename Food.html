@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .navbar-collapse {
+            justify-content: center;
+        }
+
+        .text-data {
+            padding-left: 12%;
+            color: white;
+            margin-top: 20%;
+        }
+
+        .banner {
+            background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+            height: 100%;
+            background-size: 100%;
+        }
+
+        .lunch {
+            width: 220px;
+            height: 220px;
+            background-color: #99e54d;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            border-radius: 50%;
+
+        }
+
+        .lunch h1 {
+            font-size: 3.25rem;
+            font-weight: 700;
+        }
+
+        .lunch p {
+            font-size: 1.175rem;
+            font-weight: 700;
+        }
+
+        .text-data h1 {
+            font-size: 4.15rem;
+            font-weight: 700;
+        }
+
+        .text-data h4 {
+            margin-top: 4%;
+
+        }
+
+        .text-data h3 {
+            margin-bottom: 4%;
+            font-weight: 400;
+            font-size: 25px;
+        }
+
+        .text-data button {
+            background-color: rgb(199, 185, 29);
+            width: 30%;
+            border-radius: 30px;
+            color: white;
+            border: 1px solid rgb(112, 112, 112);
+            padding: 10px 10px;
+            font-size: 20px;
+            margin-bottom: 20%;
+        }
+
+        .box-1 {
+            background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+            height: 500px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .sourcing {
+            padding: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+    <section>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+    </section>
+    <!-- NAVBAR CLOSE -->
+
+    <!-- <BANNER START  -->
+    <section>
+        <div class="container-fluid banner">
+            <div class="row">
+                <div class="col-lg-1">
+
+                </div>
+                <div class="col-lg-5">
+                    <div class="text-data">
+                        <div class="lunch">
+                            <h1>40%</h1>
+                            <p>BUSINESS <br /> LUNCH</p>
+                        </div>
+                        <h4>NEW RESTAURANT</h4>
+                        <h1>Where every ingredient tells a story</h1>
+                        <h3>Image from <span style="color: green;">Freepik</span></h3>
+                        <button>
+                            Read More
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <BANNER CLOSE  -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4 sourcing">
+                <div class="box-1">
+                    <h1>FOOD SOURCING</h1>
+                </div>
+            </div>
+
+            <div class="col-4 sourcing">
+                <div class="box-1">
+                    <h1>FOOD SOURCING</h1>
+                </div>
+            </div>
+
+
+            <div class="col-4 sourcing">
+                <div class="box-1">
+                    <h1>FOOD SOURCING</h1>
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+
+</html>
